@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lorem Forge — Smart Mock Text Generator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logo"><span>📝</span><h1>Lorem Forge</h1></div>
+    <a href="https://sabhyamtrivedycoder.github.io/portfolio/" target="_blank" class="nav-portfolio">Portfolio ↗</a>
+  </header>
+  <main class="main">
+    <div class="controls">
+      <label>Paragraphs: <input type="number" id="pCount" value="3" min="1" max="10"></label>
+      <select id="flavor">
+        <option value="tech">Tech Startup Jargon</option>
+        <option value="latin">Classic Latin</option>
+      </select>
+      <button id="genBtn" class="btn primary">Generate</button>
+    </div>
+    <div class="output" id="loremOutput"></div>
+  </main>
+  <footer>
+    <p>Engineered by <a href="https://github.com/sabhyamtrivedycoder" target="_blank">Sabhyam Trivedy</a> • MIT License</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
